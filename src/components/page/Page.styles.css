@@ -1,0 +1,82 @@
+.section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--background);
+    padding: 15%
+}
+
+.basmalah {
+    width: 100%;
+    padding: 10%;
+}
+
+.aya {
+    width: 100%;
+    padding: 0rem;
+}
+
+.seperator {
+    width: 100%;
+    padding: 10%;
+    margin-bottom: 6rem;
+}
+
+.header-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background);
+
+
+}
+
+.name {
+    font-size: 4rem;
+    margin: 3rem 1rem;
+    font-family: var(--names-font-family);
+    color: var(--primary);
+}
+
+.first-name {
+    align-self: flex-start;
+}
+
+.second-name {
+    align-self: flex-end;
+}
+
+
+.ring-section {
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: transparent;
+}
+
+.ring-container {
+    position: fixed;
+    top: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    pointer-events: none;
+
+    background: transparent;
+}
+
+.ring-container canvas {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    background: transparent;
+}
