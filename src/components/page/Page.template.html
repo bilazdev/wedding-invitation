@@ -1,16 +1,119 @@
-<div ref="canvasContainer" class="ring-container"></div>
+<Ring :options="goldenRingOptions" class="ring" />
+<Ring :options="silverRingOptions" class="ring" />
 
-<section class="first-section section" ref="firstSection">
-    <img src="../../assets/basmalah.svg" class="basmalah" alt="">
-    <img src="../../assets/aya.svg" class="aya" alt="" ref="firstElement">
-    <img src="../../assets/seperator.svg" class="seperator" alt="">
-    <div>
+<div class="container">
+    <section class="first-section section sec" ref="firstSection">
+        <img src="../../assets/first_section_background.png" class="background">
+        <img src="../../assets/basmalah.svg" class="basmalah" alt="">
+        <img src="../../assets/aya.svg" class="aya" alt="">
+        <!-- <img src="../../assets/seperator.svg" class="seperator" alt=""> -->
+        <div class="empty" ref="firstSilverElement">
+        </div>
+        <div class="width-element" ref="firstElement">
+        </div>
+    </section>
+
+    <div class="header-container section sec" ref="secondSection">
+        <div class="names-empty" ref="secondElement">
+
+        </div>
+        <div class="text"> Familty of Azizieh will be celebrating the wedding of
+        </div>
+        <div class="names">
+            <div class="name first-name"> Bilal Azizieh </div>
+            <div class="name"> and </div>
+            <div class="name second-name"> Shahed Azizieh </div>
+        </div>
+
     </div>
-</section>
 
-<div class="header-container section" ref="secondSection">
-    <div class="name first-name" ref="firstName"> Bilal </div>
-    <div class="name"> & </div>
-    <div class="name second-name" ref="secondElement"> Shahed </div>
+    <div class="time-line-section sec" ref="thirdSection">
+        <div class="time-line">
+            <div class="time-line-divider">
+
+            </div>
+            <div class="time-line-item" ref="thirdGoldenElement">
+                <div class="time-line-date">
+                    2026-01-29
+                </div>
+                <div class="title">
+                    First Seen
+                </div>
+
+            </div>
+            <div class="time-line-divider">
+            </div>
+            <div class="time-line-item" ref="thirdSilverElement">
+                <div class="time-line-date">
+                    2026-02-10
+                </div>
+                <div class="title">
+                    Buying rings
+                </div>
+            </div>
+            <div class="time-line-divider">
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="time-line-section sec" ref="fourthSection">
+        <div class="time-line">
+            <div class="time-line-divider">
+
+            </div>
+            <div class="time-line-item" ref="fourthGoldenElement">
+                <div class="time-line-date">
+                    2026-02-12
+                </div>
+                <div class="title">
+                    Marriage Contract
+                </div>
+
+            </div>
+            <div class="time-line-divider">
+            </div>
+            <div class="time-line-item" ref="fourthSilverElement">
+                <div class="time-line-date">
+                    2026-02-13
+                </div>
+                <div class="title">
+                    First Date
+                </div>
+            </div>
+            <div class="time-line-divider">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="time-line-section sec" ref="fifthSection">
+        <div class="time-line">
+            <div class="time-line-divider">
+
+            </div>
+            <div class="time-line-item" ref="fifthElement">
+                <div class="time-line-date">
+                    2026-02-12
+                </div>
+                <div class="title">
+                    Marriage
+
+                </div>
+
+            </div>
+            <div class="time-line-divider no-border">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="header-container section sec" ref="sixthSection">
+        <div class="name first-name" ref="sixthSilverElement"> Bilal </div>
+        <div class="name"> & </div>
+        <div class="name second-name" ref="sixthGoldenElement"> Shahed </div>
+
+    </div>
 
 </div>

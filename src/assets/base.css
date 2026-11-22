@@ -2,12 +2,13 @@
 :root {
     --primary: #3A4664;
     --secondary: #EAA0A2;
-    --background: #FFDBDC;
+    --overlay-background: #EEDCCD;
     --background-secondary: #FFFFFF;
     --side-text: #AAAAAA;
+    --text-color: #795d44;
 
-    --names-font-family: "Niconne", cursive;
-
+    --names-font-family: "Tangerine", cursive;
+    --text-font-family: "Roboto", cursive;
 }
 
 *,
@@ -23,9 +24,10 @@ body {
     outline: 0;
     min-height: 100vh;
     color: var(--color-text);
-    background: var(--color-background);
-    transition:
-        color 0.5s,
+    background: #dab6a699;
+    background-size: 50vh;
+    /* background: var(--color-background); */
+    transition: color 0.5s,
         background-color 0.5s;
     line-height: 1.6;
     font-family:
