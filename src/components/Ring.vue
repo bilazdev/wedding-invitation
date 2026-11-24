@@ -133,10 +133,10 @@
             const loader = new GLTFLoader()
             
             loader.load(
-                new URL(
-                    options.model,
-                    import.meta.url
-                ).href,
+                //new URL(
+                    models[options.model],
+                //   import.meta.url
+                //).href,
 
                 (gltf) => {
                     ring = gltf.scene
