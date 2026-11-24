@@ -78,7 +78,7 @@
             renderer.toneMapping = THREE.ACESFilmicToneMapping;    // natural highlight roll-off
             renderer.toneMappingExposure = 1.0;    
 
-            canvasContainer.value.appendChild(
+            canvasContainer!.value.appendChild(
               renderer.domElement
             )
 
@@ -132,8 +132,8 @@
                     ring = gltf.scene
 
                     ring.traverse((child) => {
-                      if (child.isMesh && child.material) {
-                        child.material.metalness = 0; 
+                      if ((child as any).isMesh && (child as any).material) {
+                        (child as any).material.metalness = 0; 
                       }
                     });
 
@@ -332,7 +332,7 @@
             }
 
             if (scrollTrigger) {
-                scrollTrispace-aroundgger.kill()
+                scrollTrigger.kill()
             }
 
             // Dispose Three.js resources
@@ -342,13 +342,13 @@
                         object.geometry.dispose()
                     }
 
-                    if (object.material) {
-                        if (Array.isArray(object.material)) {
-                            object.material.forEach((material) => {
+                    if ((object as any).material) {
+                        if (Array.isArray((object as any).material)) {
+                            (object as any).material.forEach((material) => {
                                 material.dispose()
                             })
                         } else {
-                            object.material.dispose()
+                            (object as any).material.dispose()
                         }
                     }
                 })
