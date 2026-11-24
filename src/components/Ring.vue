@@ -6,13 +6,15 @@
     import { ScrollTrigger } from 'gsap/ScrollTrigger'
     import { ElementInSection } from './page/element-in-section.ts'
     const models = import.meta.glob(
-      '/src/assets/*.glb',
+      '../assets/*.glb',
       {
         eager: true,
         query: '?url',
         import: 'default'
       }
     )
+
+    console.log(models);
 
     const props = defineProps({
       options: {
