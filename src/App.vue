@@ -2,25 +2,25 @@
     import Page from "./components/page/Page.vue";
     import { ref, onMounted, onUnmounted } from 'vue';
 
-const isLandscape = ref(false);
+    const isLandscape = ref(false);
 
-let mediaQuery;
+    let mediaQuery;
 
-const checkOrientation = () => {
-  isLandscape.value = mediaQuery.matches;
-};
+    const checkOrientation = () => {
+      isLandscape.value = mediaQuery.matches;
+    };
 
-onMounted(() => {
-  mediaQuery = window.matchMedia('(orientation: landscape)');
+    onMounted(() => {
+      mediaQuery = window.matchMedia('(orientation: landscape)');
 
-  checkOrientation();
+      checkOrientation();
 
-  mediaQuery.addEventListener('change', checkOrientation);
-});
+      mediaQuery.addEventListener('change', checkOrientation);
+    });
 
-onUnmounted(() => {
-  mediaQuery?.removeEventListener('change', checkOrientation);
-});
+    onUnmounted(() => {
+      mediaQuery?.removeEventListener('change', checkOrientation);
+    });
 </script>
 
 <template>
