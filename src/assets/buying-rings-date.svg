@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="44.06982mm"
+   height="44.06982mm"
+   viewBox="0 0 44.069819 44.06982"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   sodipodi:docname="buying-rings-date.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.9245384"
+     inkscape:cx="-34.071056"
+     inkscape:cy="64.89725"
+     inkscape:window-width="990"
+     inkscape:window-height="551"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g23" />
+  <defs
+     id="defs1">
+    <rect
+       x="55.431335"
+       y="283.75565"
+       width="451.36945"
+       height="114.82205"
+       id="rect21" />
+    <rect
+       x="55.431335"
+       y="283.75565"
+       width="451.36945"
+       height="114.82205"
+       id="rect22" />
+    <rect
+       x="55.431335"
+       y="283.75565"
+       width="451.36945"
+       height="114.82205"
+       id="rect23" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-217.80091,-105.29141)">
+    <circle
+       style="fill:#795d44;fill-opacity:1;stroke:none;stroke-width:2.975;stroke-dasharray:17.85, 2.975;stroke-dashoffset:13.3875;stroke-opacity:1"
+       id="path12"
+       cx="239.83582"
+       cy="127.32632"
+       r="22.03491" />
+    <g
+       id="g23"
+       transform="matrix(0.73027322,0,0,0.73027322,213.44489,50.520006)">
+      <text
+         xml:space="preserve"
+         transform="matrix(0.79452631,0,0,0.79452631,-187.35548,-127.825)"
+         id="text21"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect21);display:inline;fill:#ebd2cd;fill-opacity:1;stroke-width:25.7877;stroke-dasharray:none"
+         x="186.09091"
+         y="0"><tspan
+           x="269.87598"
+           y="301.25586"
+           id="tspan4">10</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(0.49685474,0,0,0.49685474,-103.24681,-52.392061)"
+         id="text22"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect22);display:inline;fill:#ebd2cd;fill-opacity:1;stroke-width:25.7877;stroke-dasharray:none"
+         x="186.09091"
+         y="0"><tspan
+           x="263.6748"
+           y="301.25586"
+           id="tspan5">FEB</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(0.40293698,0,0,0.40293698,-77.125839,-1.3399663)"
+         id="text23"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect23);display:inline;fill:#ebd2cd;fill-opacity:1;stroke-width:25.7877;stroke-dasharray:none"
+         x="186.09091"
+         y="0"><tspan
+           x="258.63574"
+           y="301.25586"
+           id="tspan6">2026</tspan></text>
+    </g>
+  </g>
+</svg>

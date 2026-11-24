@@ -2,13 +2,25 @@
 :root {
     --primary: #3A4664;
     --secondary: #EAA0A2;
-    --overlay-background: #EEDCCD;
+    --background: #EEDCCD;
     --background-secondary: #FFFFFF;
     --side-text: #AAAAAA;
     --text-color: #795d44;
 
     --names-font-family: "Tangerine", cursive;
     --text-font-family: "Roboto", cursive;
+    --text-ar-font-family: "Cairo", cursive;
+    --names-ar-font-family: "ArabicFont", cursive;
+}
+
+@font-face {
+    font-family: 'ArabicFont';
+    /* Choose any name you want */
+    src: url('../assets/arabic-font.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    /* Shows fallback text while the font loads */
 }
 
 *,

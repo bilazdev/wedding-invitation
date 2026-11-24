@@ -23,14 +23,11 @@
 
     const fourthGoldenElement = ref(null);
     const fourthSilverElement = ref(null);
+    const fourthElement = ref(null);
     const fourthSection = ref(null);
 
     const fifthElement = ref(null);
     const fifthSection = ref(null);
-
-    const sixthGoldenElement = ref(null);
-    const sixthSilverElement = ref(null);
-    const sixthSection = ref(null);
     
     const goldenRingOptions = ref(null);
     const silverRingOptions = ref(null);
@@ -49,50 +46,41 @@
                         0.5
                     ),
                     new Step(
-                        secondElement,
+                        secondGoldenElement,
                         secondSection,
-                        new Vector3(-0.05, -0.1, 1),
+                        new Vector3(-0.36, 0, 0),
                         new Vector3(
                             Math.PI/2.5, Math.PI/6, -Math.PI/3 
                         ),
-                        0.3
+                        0.2
                     ),
                     new Step(
                         thirdGoldenElement,
                         thirdSection,
                         new Vector3(0, 0, 0),
                         new Vector3(
-                            0, 4 * Math.PI + 0, 0
+                            0, 4 * Math.PI, 0
                         ),
-                        1.1
+                        1.3
                     ), 
                     new Step(
-                        fourthGoldenElement,
+                        fourthElement,
                         fourthSection,
                         new Vector3(0, 0, 0),
                         new Vector3(
                             4 * Math.PI, 4 * Math.PI, 0
                         ),
-                        1.1
+                        0.9
                     ),
                     new Step(
                         fifthElement,
                         fifthSection,
-                        new Vector3(0, 0, 0),
+                        new Vector3(-0.5, 0, 0),
                         new Vector3(
                             0, 0, 0
                         ),
-                        1.1
-                    ),  
-                    new Step(
-                        sixthGoldenElement,
-                        sixthSection,
-                        new Vector3(0, 0, 0),
-                        new Vector3(
-                            0, 0, 0
-                        ),
-                        1.5
-                    ),
+                        0.3
+                    )
                 ]
             }
         
@@ -110,49 +98,41 @@
                         0.3
                     ), 
                     new Step(
-                        secondElement,
+                        secondSilverElement,
                         secondSection,
-                        new Vector3(0.05, -0.2, 0),
+                        new Vector3(-0.3, 0, 0),
                         new Vector3(
-                             -Math.PI/2.4,Math.PI,0                       ),
-                        0.28
+                            Math.PI/2.5, Math.PI/6, -Math.PI/3 
+                        ),
+                        0.15
                     ) , 
                     new Step(
                         thirdSilverElement,
                         thirdSection,
-                        new Vector3(0, 0.05, 0),
+                        new Vector3(0, 0, 0),
                         new Vector3(
-                            0, 4 * Math.PI + Math.PI / 2, 0
+                            0, 4 * Math.PI, 0
                         ),
-                        1.1
+                        1
                     ) , 
                     new Step(
-                        fourthSilverElement,
+                        fourthElement,
                         fourthSection,
-                        new Vector3(0, 0.05, 0),
+                        new Vector3(0, 0, 0),
                         new Vector3(
-                            4 * Math.PI, 4 * Math.PI + Math.PI / 2, 0
+                            4 * Math.PI,  0, 0
                         ),
-                        1.1
+                        0.58
                     ), 
                     new Step(
                         fifthElement,
                         fifthSection,
-                        new Vector3(0, 0.05, 0),
+                        new Vector3(0.5, 0, 0),
                         new Vector3(
-                            0, Math.PI / 2, 0
+                            0, 4 * Math.PI, 0
                         ),
-                        1.4
-                    ),   
-                    new Step(
-                        sixthSilverElement,
-                        sixthSection,
-                        new Vector3(0, 0.05, 0),
-                        new Vector3(
-                            0, Math.PI / 2, 0
-                        ),
-                        1.5
-                    ) , 
+                        0.3
+                    )
                 ]
             }
 
@@ -217,7 +197,7 @@
           wheelSpeed: 1,
           tolerance: 15,
 
-          preventDefault: false,
+          preventDefault: true,
 
           onPress: () => {
             // Prevent unwanted native touch behavior

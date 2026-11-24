@@ -332,7 +332,7 @@
             }
 
             if (scrollTrigger) {
-                scrollTrigger.kill()
+                scrollTrispace-aroundgger.kill()
             }
 
             // Dispose Three.js resources
